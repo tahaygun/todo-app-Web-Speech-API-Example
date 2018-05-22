@@ -1,0 +1,130 @@
+* {
+    padding:0;
+    margin:0;
+}
+body {
+    background-color:#2a2a2a;
+    font-family:'Open Sans', sans-serif;
+}
+#container {
+    background-color: #111216;
+    color:#999999;
+    width:500px;
+    margin: 10px auto auto auto;
+    padding-bottom:12px;
+    border-radius: 20px;
+}
+#formContainer {
+    padding-top:12px
+}
+
+#taskInput {
+ 
+    font-size:14px;
+    font-family:'Open Sans', sans-serif;
+    height:36px;
+    width:450px;
+    border-radius:100px;
+    background-color:#717177;
+    border:0;
+    margin: auto;
+    color:#fff;
+    display:block;
+    padding-left:15px;
+   -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+}
+#taskInput:focus{
+  box-shadow: 0px 0px 1pt 1pt #999999;
+ background-color:#111216; 
+  outline:none;
+}
+::-webkit-input-placeholder {
+    color: #333333;
+    font-style:italic;
+    /* padding-left:10px; */
+}
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #333333;
+    font-style:italic;
+}
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #333333;
+    font-style:italic;
+}
+:-ms-input-placeholder {
+    color: #333333;
+    font-style:italic;
+}
+header {
+    margin-top:0;
+    background-color:#F94D50;
+    width:470px;
+    height:48px;
+    margin: auto;
+    padding-left:12px;
+    border-radius: 20px;
+}
+header h1 {
+    font-size:25px;
+    font-weight:300;
+    color:#fff;
+    line-height:48px;
+  width:50%;
+  display:inline;
+}
+header a{
+  
+  width:40%;
+  display:inline;
+  line-height:48px;
+}
+#taskEntryForm {
+    background-color:#111216;
+    width:326px;
+    height: 48px;
+    border-width:0px;
+    padding: 0px 12px 0px 12px;
+    font-size:0px;
+}
+#taskList {
+    width: 450px;
+    margin:auto;
+    font-size:19px;
+    font-weight:600;
+}
+ul li {
+    background-color:#17181D;
+    height:48px;
+    color: white;
+    width:414px;
+    padding-left:12px;
+    margin:0 auto 10px auto;
+    line-height:48px;
+    list-style:none;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+.voiceStuffs{
+  background-color: wheat;
+  width: 450px;
+  word-wrap: break-word;
+  min-height: 80px;
+  margin: 20px auto ;
+  border-radius: 20px;
+  padding: 20px  ;
+  font-family: 'Courier New', Courier, monospace;
+}
+.voiceStuffs p {
+  text-align: center;
+}
+.answer{
+  color: darkblue;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
